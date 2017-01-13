@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A105661E252CBE00408718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A105651E252CBE00408718 /* main.m */; };
+		A0A105691E252CBE00408718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A105681E252CBE00408718 /* AppDelegate.m */; };
+		A0A105711E252CBE00408718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A105701E252CBE00408718 /* Assets.xcassets */; };
+		A0A105741E252CBE00408718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A105721E252CBE00408718 /* LaunchScreen.storyboard */; };
+		A0D568D41E28FE2D00F4D01B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568D31E28FE2D00F4D01B /* BaseViewController.m */; };
+		A0D568D71E2906D700F4D01B /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568D61E2906D700F4D01B /* BaseNavigationController.m */; };
+		A0D568DB1E2917C600F4D01B /* AnimationTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568DA1E2917C600F4D01B /* AnimationTabBarController.m */; };
+		A0D568DF1E2918A400F4D01B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568DE1E2918A400F4D01B /* MainViewController.m */; };
+		A0D568E31E2932DC00F4D01B /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568E21E2932DC00F4D01B /* GuideViewController.m */; };
+		A0D568E61E29332700F4D01B /* GuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568E51E29332700F4D01B /* GuideCell.m */; };
+		C5022077D82692050C8036CF /* libPods-Bee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2472B4BA3A1A35AD4B48DD8E /* libPods-Bee.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2472B4BA3A1A35AD4B48DD8E /* libPods-Bee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86319CA2444EFF1F7BBD0F8A /* Pods-Bee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bee/Pods-Bee.debug.xcconfig"; sourceTree = "<group>"; };
+		A0A105611E252CBE00408718 /* Bee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A105651E252CBE00408718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0A105671E252CBE00408718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0A105681E252CBE00408718 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0A105701E252CBE00408718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0A105731E252CBE00408718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0A105751E252CBE00408718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A1072F1E28EBCC00408718 /* Bee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bee-Prefix.pch"; sourceTree = "<group>"; };
+		A0A107301E28EC4E00408718 /* UIConstHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIConstHeader.h; sourceTree = "<group>"; };
+		A0D568D01E28FA7900F4D01B /* GlobalConstHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalConstHeader.h; sourceTree = "<group>"; };
+		A0D568D21E28FE2D00F4D01B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A0D568D31E28FE2D00F4D01B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A0D568D51E2906D700F4D01B /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		A0D568D61E2906D700F4D01B /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		A0D568D91E2917C600F4D01B /* AnimationTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationTabBarController.h; sourceTree = "<group>"; };
+		A0D568DA1E2917C600F4D01B /* AnimationTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationTabBarController.m; sourceTree = "<group>"; };
+		A0D568DD1E2918A400F4D01B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A0D568DE1E2918A400F4D01B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A0D568E11E2932DC00F4D01B /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		A0D568E21E2932DC00F4D01B /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		A0D568E41E29332700F4D01B /* GuideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideCell.h; sourceTree = "<group>"; };
+		A0D568E51E29332700F4D01B /* GuideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideCell.m; sourceTree = "<group>"; };
+		F6044F86E1BBA61AD4FFBA34 /* Pods-Bee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bee/Pods-Bee.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A1055E1E252CBE00408718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5022077D82692050C8036CF /* libPods-Bee.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BBAA05B6FCACC4614C2DAE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2472B4BA3A1A35AD4B48DD8E /* libPods-Bee.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A105581E252CBE00408718 = {
+			isa = PBXGroup;
+			children = (
+				A0A105631E252CBE00408718 /* Bee */,
+				A0A105621E252CBE00408718 /* Products */,
+				F49DD1597FA824AD359A7C65 /* Pods */,
+				7BBAA05B6FCACC4614C2DAE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A105621E252CBE00408718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A105611E252CBE00408718 /* Bee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A105631E252CBE00408718 /* Bee */ = {
+			isa = PBXGroup;
+			children = (
+				A0A105671E252CBE00408718 /* AppDelegate.h */,
+				A0A105681E252CBE00408718 /* AppDelegate.m */,
+				A0A1072E1E28EB2B00408718 /* GlobalConst */,
+				A0A107291E28EA8A00408718 /* BaseClass */,
+				A0A1072A1E28EA8A00408718 /* Controller */,
+				A0A1072B1E28EA8A00408718 /* Model */,
+				A0A1072C1E28EA8A00408718 /* Tools */,
+				A0A1072D1E28EA8A00408718 /* View */,
+				A0A105701E252CBE00408718 /* Assets.xcassets */,
+				A0A105641E252CBE00408718 /* Supporting Files */,
+			);
+			path = Bee;
+			sourceTree = "<group>";
+		};
+		A0A105641E252CBE00408718 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A105721E252CBE00408718 /* LaunchScreen.storyboard */,
+				A0A105751E252CBE00408718 /* Info.plist */,
+				A0A105651E252CBE00408718 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A107291E28EA8A00408718 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568D11E28FE0E00F4D01B /* BaseControllers */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		A0A1072A1E28EA8A00408718 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568E01E2932DC00F4D01B /* Guide */,
+				A0D568DC1E29188C00F4D01B /* MainTabBarController */,
+				A0D568D81E2917C600F4D01B /* AnimotionTabBarController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A0A1072B1E28EA8A00408718 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0A1072C1E28EA8A00408718 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A0A1072D1E28EA8A00408718 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0A1072E1E28EB2B00408718 /* GlobalConst */ = {
+			isa = PBXGroup;
+			children = (
+				A0A1072F1E28EBCC00408718 /* Bee-Prefix.pch */,
+				A0A107301E28EC4E00408718 /* UIConstHeader.h */,
+				A0D568D01E28FA7900F4D01B /* GlobalConstHeader.h */,
+			);
+			path = GlobalConst;
+			sourceTree = "<group>";
+		};
+		A0D568D11E28FE0E00F4D01B /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568D21E28FE2D00F4D01B /* BaseViewController.h */,
+				A0D568D31E28FE2D00F4D01B /* BaseViewController.m */,
+				A0D568D51E2906D700F4D01B /* BaseNavigationController.h */,
+				A0D568D61E2906D700F4D01B /* BaseNavigationController.m */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
+		A0D568D81E2917C600F4D01B /* AnimotionTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568D91E2917C600F4D01B /* AnimationTabBarController.h */,
+				A0D568DA1E2917C600F4D01B /* AnimationTabBarController.m */,
+			);
+			path = AnimotionTabBarController;
+			sourceTree = "<group>";
+		};
+		A0D568DC1E29188C00F4D01B /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568DD1E2918A400F4D01B /* MainViewController.h */,
+				A0D568DE1E2918A400F4D01B /* MainViewController.m */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		A0D568E01E2932DC00F4D01B /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568E41E29332700F4D01B /* GuideCell.h */,
+				A0D568E51E29332700F4D01B /* GuideCell.m */,
+				A0D568E11E2932DC00F4D01B /* GuideViewController.h */,
+				A0D568E21E2932DC00F4D01B /* GuideViewController.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		F49DD1597FA824AD359A7C65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86319CA2444EFF1F7BBD0F8A /* Pods-Bee.debug.xcconfig */,
+				F6044F86E1BBA61AD4FFBA34 /* Pods-Bee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0A105601E252CBE00408718 /* Bee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A105781E252CBE00408718 /* Build configuration list for PBXNativeTarget "Bee" */;
+			buildPhases = (
+				72CA415A8171A5673B982747 /* [CP] Check Pods Manifest.lock */,
+				A0A1055D1E252CBE00408718 /* Sources */,
+				A0A1055E1E252CBE00408718 /* Frameworks */,
+				A0A1055F1E252CBE00408718 /* Resources */,
+				88C46C70948026B51B0EE17A /* [CP] Embed Pods Frameworks */,
+				4638687776B5ABE3A6100F9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bee;
+			productName = Bee;
+			productReference = A0A105611E252CBE00408718 /* Bee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A105591E252CBE00408718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = steam;
+				TargetAttributes = {
+					A0A105601E252CBE00408718 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 475SE62HSQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A0A1055C1E252CBE00408718 /* Build configuration list for PBXProject "Bee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0A105581E252CBE00408718;
+			productRefGroup = A0A105621E252CBE00408718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A105601E252CBE00408718 /* Bee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0A1055F1E252CBE00408718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A105741E252CBE00408718 /* LaunchScreen.storyboard in Resources */,
+				A0A105711E252CBE00408718 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4638687776B5ABE3A6100F9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bee/Pods-Bee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72CA415A8171A5673B982747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88C46C70948026B51B0EE17A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bee/Pods-Bee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A1055D1E252CBE00408718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D568D71E2906D700F4D01B /* BaseNavigationController.m in Sources */,
+				A0D568E31E2932DC00F4D01B /* GuideViewController.m in Sources */,
+				A0D568DF1E2918A400F4D01B /* MainViewController.m in Sources */,
+				A0D568DB1E2917C600F4D01B /* AnimationTabBarController.m in Sources */,
+				A0D568E61E29332700F4D01B /* GuideCell.m in Sources */,
+				A0A105691E252CBE00408718 /* AppDelegate.m in Sources */,
+				A0D568D41E28FE2D00F4D01B /* BaseViewController.m in Sources */,
+				A0A105661E252CBE00408718 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0A105721E252CBE00408718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A105731E252CBE00408718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0A105761E252CBE00408718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0A105771E252CBE00408718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0A105791E252CBE00408718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86319CA2444EFF1F7BBD0F8A /* Pods-Bee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 475SE62HSQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bee/GlobalConst/Bee-Prefix.pch";
+				INFOPLIST_FILE = Bee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steam.grad-project.Bee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0A1057A1E252CBE00408718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6044F86E1BBA61AD4FFBA34 /* Pods-Bee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 475SE62HSQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bee/GlobalConst/Bee-Prefix.pch";
+				INFOPLIST_FILE = Bee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.steam.grad-project.Bee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A1055C1E252CBE00408718 /* Build configuration list for PBXProject "Bee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A105761E252CBE00408718 /* Debug */,
+				A0A105771E252CBE00408718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A105781E252CBE00408718 /* Build configuration list for PBXNativeTarget "Bee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A105791E252CBE00408718 /* Debug */,
+				A0A1057A1E252CBE00408718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A105591E252CBE00408718 /* Project object */;
+}
