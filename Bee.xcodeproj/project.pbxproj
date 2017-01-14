@@ -17,6 +17,14 @@
 		A0D568DF1E2918A400F4D01B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568DE1E2918A400F4D01B /* MainViewController.m */; };
 		A0D568E31E2932DC00F4D01B /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568E21E2932DC00F4D01B /* GuideViewController.m */; };
 		A0D568E61E29332700F4D01B /* GuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568E51E29332700F4D01B /* GuideCell.m */; };
+		A0D568EA1E29E0C400F4D01B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568E91E29E0C400F4D01B /* HomeViewController.m */; };
+		A0D568EE1E29E31B00F4D01B /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568ED1E29E31B00F4D01B /* GradientViewController.m */; };
+		A0D568F51E29EB9500F4D01B /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568F41E29EB9500F4D01B /* UIImage+Extension.m */; };
+		A0D568FC1E2A075B00F4D01B /* CommonPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D568FB1E2A075B00F4D01B /* CommonPromptView.m */; };
+		A0D569091E2A52AC00F4D01B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D569071E2A52AC00F4D01B /* LoginViewController.m */; };
+		A0D5690A1E2A52AC00F4D01B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D569081E2A52AC00F4D01B /* LoginViewController.xib */; };
+		A0D5690D1E2A560E00F4D01B /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D5690C1E2A560E00F4D01B /* UIButton+Extension.m */; };
+		A0D569111E2A5D1700F4D01B /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D569101E2A5D1700F4D01B /* ShoppingCartViewController.m */; };
 		C5022077D82692050C8036CF /* libPods-Bee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2472B4BA3A1A35AD4B48DD8E /* libPods-Bee.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +53,21 @@
 		A0D568E21E2932DC00F4D01B /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
 		A0D568E41E29332700F4D01B /* GuideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideCell.h; sourceTree = "<group>"; };
 		A0D568E51E29332700F4D01B /* GuideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideCell.m; sourceTree = "<group>"; };
+		A0D568E81E29E0C400F4D01B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A0D568E91E29E0C400F4D01B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A0D568EC1E29E31B00F4D01B /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
+		A0D568ED1E29E31B00F4D01B /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
+		A0D568F31E29EB9500F4D01B /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		A0D568F41E29EB9500F4D01B /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		A0D568FA1E2A075B00F4D01B /* CommonPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonPromptView.h; sourceTree = "<group>"; };
+		A0D568FB1E2A075B00F4D01B /* CommonPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonPromptView.m; sourceTree = "<group>"; };
+		A0D569061E2A52AC00F4D01B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A0D569071E2A52AC00F4D01B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A0D569081E2A52AC00F4D01B /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		A0D5690B1E2A560E00F4D01B /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		A0D5690C1E2A560E00F4D01B /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		A0D5690F1E2A5D1700F4D01B /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		A0D569101E2A5D1700F4D01B /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
 		F6044F86E1BBA61AD4FFBA34 /* Pods-Bee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bee/Pods-Bee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +114,7 @@
 			children = (
 				A0A105671E252CBE00408718 /* AppDelegate.h */,
 				A0A105681E252CBE00408718 /* AppDelegate.m */,
+				A0D569121E2A5FA400F4D01B /* Persistence */,
 				A0A1072E1E28EB2B00408718 /* GlobalConst */,
 				A0A107291E28EA8A00408718 /* BaseClass */,
 				A0A1072A1E28EA8A00408718 /* Controller */,
@@ -116,6 +140,7 @@
 		A0A107291E28EA8A00408718 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				A0D568EB1E29E2AB00F4D01B /* CustomController */,
 				A0D568D11E28FE0E00F4D01B /* BaseControllers */,
 			);
 			path = BaseClass;
@@ -124,6 +149,9 @@
 		A0A1072A1E28EA8A00408718 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A0D5690E1E2A5CCB00F4D01B /* GoodList */,
+				A0D568FD1E2A280900F4D01B /* Me */,
+				A0D568E71E29E08C00F4D01B /* HomePage */,
 				A0D568E01E2932DC00F4D01B /* Guide */,
 				A0D568DC1E29188C00F4D01B /* MainTabBarController */,
 				A0D568D81E2917C600F4D01B /* AnimotionTabBarController */,
@@ -141,6 +169,7 @@
 		A0A1072C1E28EA8A00408718 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				A0D568EF1E29E63C00F4D01B /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -148,6 +177,7 @@
 		A0A1072D1E28EA8A00408718 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A0D568F61E2A060700F4D01B /* ErrorOrEmptyPromptView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,6 +230,72 @@
 				A0D568E21E2932DC00F4D01B /* GuideViewController.m */,
 			);
 			path = Guide;
+			sourceTree = "<group>";
+		};
+		A0D568E71E29E08C00F4D01B /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568E81E29E0C400F4D01B /* HomeViewController.h */,
+				A0D568E91E29E0C400F4D01B /* HomeViewController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		A0D568EB1E29E2AB00F4D01B /* CustomController */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568EC1E29E31B00F4D01B /* GradientViewController.h */,
+				A0D568ED1E29E31B00F4D01B /* GradientViewController.m */,
+			);
+			path = CustomController;
+			sourceTree = "<group>";
+		};
+		A0D568EF1E29E63C00F4D01B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568F31E29EB9500F4D01B /* UIImage+Extension.h */,
+				A0D568F41E29EB9500F4D01B /* UIImage+Extension.m */,
+				A0D5690B1E2A560E00F4D01B /* UIButton+Extension.h */,
+				A0D5690C1E2A560E00F4D01B /* UIButton+Extension.m */,
+			);
+			name = Extension;
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		A0D568F61E2A060700F4D01B /* ErrorOrEmptyPromptView */ = {
+			isa = PBXGroup;
+			children = (
+				A0D568FA1E2A075B00F4D01B /* CommonPromptView.h */,
+				A0D568FB1E2A075B00F4D01B /* CommonPromptView.m */,
+			);
+			name = ErrorOrEmptyPromptView;
+			path = ErrorPromptView;
+			sourceTree = "<group>";
+		};
+		A0D568FD1E2A280900F4D01B /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				A0D569061E2A52AC00F4D01B /* LoginViewController.h */,
+				A0D569071E2A52AC00F4D01B /* LoginViewController.m */,
+				A0D569081E2A52AC00F4D01B /* LoginViewController.xib */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		A0D5690E1E2A5CCB00F4D01B /* GoodList */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5690F1E2A5D1700F4D01B /* ShoppingCartViewController.h */,
+				A0D569101E2A5D1700F4D01B /* ShoppingCartViewController.m */,
+			);
+			path = GoodList;
+			sourceTree = "<group>";
+		};
+		A0D569121E2A5FA400F4D01B /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 		F49DD1597FA824AD359A7C65 /* Pods */ = {
@@ -275,6 +371,7 @@
 			files = (
 				A0A105741E252CBE00408718 /* LaunchScreen.storyboard in Resources */,
 				A0A105711E252CBE00408718 /* Assets.xcassets in Resources */,
+				A0D5690A1E2A52AC00F4D01B /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,11 +432,18 @@
 			files = (
 				A0D568D71E2906D700F4D01B /* BaseNavigationController.m in Sources */,
 				A0D568E31E2932DC00F4D01B /* GuideViewController.m in Sources */,
+				A0D569091E2A52AC00F4D01B /* LoginViewController.m in Sources */,
+				A0D569111E2A5D1700F4D01B /* ShoppingCartViewController.m in Sources */,
 				A0D568DF1E2918A400F4D01B /* MainViewController.m in Sources */,
+				A0D568FC1E2A075B00F4D01B /* CommonPromptView.m in Sources */,
 				A0D568DB1E2917C600F4D01B /* AnimationTabBarController.m in Sources */,
+				A0D568EE1E29E31B00F4D01B /* GradientViewController.m in Sources */,
 				A0D568E61E29332700F4D01B /* GuideCell.m in Sources */,
+				A0D568EA1E29E0C400F4D01B /* HomeViewController.m in Sources */,
+				A0D5690D1E2A560E00F4D01B /* UIButton+Extension.m in Sources */,
 				A0A105691E252CBE00408718 /* AppDelegate.m in Sources */,
 				A0D568D41E28FE2D00F4D01B /* BaseViewController.m in Sources */,
+				A0D568F51E29EB9500F4D01B /* UIImage+Extension.m in Sources */,
 				A0A105661E252CBE00408718 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

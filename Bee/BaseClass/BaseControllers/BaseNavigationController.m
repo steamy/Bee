@@ -37,6 +37,7 @@
     
     [button setImage:returnImage forState:UIControlStateNormal];
     [button addTarget:self action:@selector(clickedBackButton) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 -(void)clickedBackButton{
     [self popViewControllerAnimated:YES];
@@ -48,7 +49,8 @@
     
     //如果不是第一页
     if (self.childViewControllers.count > 0) {
-        [self createBackButton];
+        UIBarButtonItem * item = [[UIBarButtonItem alloc] initWithCustomView:self.backButton];
+        viewController.navigationItem.leftBarButtonItem = item;
     }
     
 }

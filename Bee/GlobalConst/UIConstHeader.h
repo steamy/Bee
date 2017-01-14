@@ -43,15 +43,19 @@
 
 //导航颜色
 #define NavigationColor_White  UIColorFromRGB(0xffffff)  //导航颜色—白
-#define NavigationColor_Yellow [UIColor colorWithRed:253/250.f green:212/250.0f blue:49/250.0f alpha:1.0f] //导航颜色-黄
+#define NavigationColor_Yellow UIColorFromRGB(0xffd600)//导航颜色-黄
 #define NavigationTitleColor  UIColorFromRGB(0x262626)  //导航字体颜色
 
 // 背景颜色
-#define ThemeBackgroudColor UIColorFromRGB(0xeeeeee)
+#define ThemeBackgroudColor UIColorFromRGB(0xffffff)
 #define  ThemeGrayColor UIColorFromRGB(0xebebeb)
 
 // 文字颜色
 #define TextBlackColor  UIColorFromRGB(0x262626)
+#define TextGrayColor   UIColorFromRGB(0xb2b2b2)
+
+//黄色button颜色
+#define ButtonYellowColor UIColorFromRGB(0xffd800) 
 
 /**
  *      文字大小
@@ -61,7 +65,7 @@
 #define TextNormalFont  [UIFont systemFontOfSize:30 * KScreenUnit]
 #define TextSmallFont  [UIFont systemFontOfSize:24 * KScreenUnit]
 
-#define TextNavigationTitleFont TextLargeFont
+#define TextNavigationTitleFont [UIFont systemFontOfSize:33 * KScreenUnit]
 
 
 #endif /* UIConstHeader_h */

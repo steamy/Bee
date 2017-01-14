@@ -10,7 +10,10 @@
 
 #import "BaseViewController.h"
 
+
 @interface BaseViewController ()
+
+@property (nonatomic , strong) CommonPromptView * promtpView;
 
 @end
 
@@ -22,6 +25,9 @@
     
     //设置背景颜色
     self.view.backgroundColor = ThemeBackgroudColor;
+    
+    //初始化异常界面
+    self.promtpView = [[CommonPromptView alloc] init];
 
 }
 
@@ -84,12 +90,41 @@ selectedImageName :(NSString * ) selectedImageName action :(SEL) action{
     }
     
     //设置点击事件
-    [rightButton addTarget:selectedImageName action:action forControlEvents:UIControlEventTouchUpInside];
+    [rightButton addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
     
     UIBarButtonItem * rightItem = [[UIBarButtonItem alloc]
                                    initWithCustomView:rightButton];
     
     self.navigationItem.rightBarButtonItem = rightItem;
+}
+
+
+/**
+ 处理异常
+ 
+ @param type 异常的类型：网络不可用和定位不可用
+ */
+-(void)shwoErrorViewWithErrorType : (ErrorType ) type setter : (SEL) setter{
+    
+    if (type == InternetUnavailable) {
+        //网络不可用
+        [self.promtpView setViewContentWithImagename:@"v2_connnect_error" promptText:@"当前网络不可用，请稍后重试" buttonText:@"点击重试" setter: setter target : self];
+    }else  if (type == LocationUnavailable ){
+        //定位不可用
+        [self.promtpView setViewContentWithImagename:@"" promptText:@"当前网络不可用，请稍后重试" buttonText:@"点击重试" setter: setter target : self];
+    }else if (type == NotLoginIn ){
+        //未登录
+        [self.promtpView setViewContentWithImagename:@"NotLogin" promptText:@"登录后查看购物车、收藏记录" buttonText:@"登录" setter: setter target:self];
+    }
+    
+    [self.view addSubview:self.promtpView];
+}
+
+/**
+ 移除异常界面
+ */
+-(void)removePromptView{
+    [self.promtpView removeFromSuperview];
 }
 
 

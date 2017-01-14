@@ -69,9 +69,9 @@
  */
 -(void)setRootViewController{
     
-    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"isFirstStart"]) {
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:UserDefault_IsFirstStart]) {
         // 第一次启动,加载导航页控制器
-        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"isFirstStart"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:UserDefault_IsFirstStart];
         self.window.rootViewController = [GuideViewController new];
     }else{
         //加载主页控制器
@@ -84,6 +84,7 @@
  */
 -(void)showMainTabBar{
     self.window.rootViewController = [[MainViewController alloc] init];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
 }
 
 

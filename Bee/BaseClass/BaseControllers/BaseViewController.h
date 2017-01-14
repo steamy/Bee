@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum : NSUInteger {
+    InternetUnavailable,
+    LocationUnavailable,
+    NotLoginIn,
+} ErrorType;
+
 @interface BaseViewController : UIViewController
 
 
@@ -31,5 +37,18 @@
          imageName : ( NSString *) imageName
          selectedImageName :(NSString * ) selectedImageName
          action :(SEL) action;
+
+
+/**
+ 处理异常
+
+ @param type 异常的类型：网络不可用和定位不可用
+ */
+-(void)shwoErrorViewWithErrorType : (ErrorType ) type setter : (SEL) setter;
+
+/**
+ 移除异常界面
+ */
+-(void)removePromptView;
 
 @end

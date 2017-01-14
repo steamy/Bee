@@ -22,5 +22,15 @@
 #define GuideViewDidFinish @"GuideViewDidFinish"
 
 
+/**
+ *      userdefault constant key
+ */
+//第一次启动
+#define UserDefault_IsFirstStart @"UserDefault_IsFirstStart"
+//是否登录
+#define UserDefault_IsLogined @"UserDefault_IsLogined"
+
+
+
 
 #endif /* GlobalConstHeader_h */
