@@ -11,6 +11,9 @@
 #import "HomeViewController.h"
 #import "LoginViewController.h"
 #import "ShoppingCartViewController.h"
+#import "MeViewController.h"
+
+BOOL  isFirstAppearance = YES;
 
 @interface MainViewController ()
 
@@ -32,9 +35,11 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     
-    NSDictionary * containers = [self createViewContainers];
-    [self createCustomIcons:containers];
-    
+    if (isFirstAppearance) {
+        NSDictionary * containers = [self createViewContainers];
+        [self createCustomIcons:containers];
+        isFirstAppearance = NO;
+    }
 }
 
 #pragma  mark -- createView
@@ -43,7 +48,7 @@
     [self addChildViewController:[HomeViewController new] title: @"首页" imageName: @"v2_home" tag:0];
     [self addChildViewController:[BaseViewController new] title: @"闪送超市" imageName: @"v2_order" tag:1];
     [self addChildViewController:[ShoppingCartViewController new] title: @"购物车" imageName: @"shopCart" tag:2];
-    [self addChildViewController:[BaseViewController new] title: @"我的" imageName: @"v2_my" tag:3];
+    [self addChildViewController:[MeViewController new] title: @"我的" imageName: @"v2_my" tag:3];
 }
 
 -(void)addChildViewController:(UIViewController *)childController title : (NSString *) title imageName : (NSString *) imageName tag : (int) tag{
@@ -62,7 +67,6 @@
     [self addChildViewController:baseViewController];
 }
 
-#pragma  mark -- item点击事件
 
 
 @end

@@ -48,7 +48,7 @@
 
 // 背景颜色
 #define ThemeBackgroudColor UIColorFromRGB(0xffffff)
-#define  ThemeGrayColor UIColorFromRGB(0xebebeb)
+#define  ThemeGrayColor UIColorFromRGB(0xf9f9f8)
 
 // 文字颜色
 #define TextBlackColor  UIColorFromRGB(0x262626)
@@ -56,6 +56,9 @@
 
 //黄色button颜色
 #define ButtonYellowColor UIColorFromRGB(0xffd800) 
+#define ButtonGrayColor UIColorFromRGB(0xf1f1f1)
+//分割线颜色
+#define DividedLineGrayColor UIColorFromRGB(0xf1f1f1)
 
 /**
  *      文字大小

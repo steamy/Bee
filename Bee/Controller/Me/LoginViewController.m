@@ -17,7 +17,7 @@
 
 @end
 
-@implementation LoginViewController
+@implementation LoginViewController 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -44,6 +44,14 @@
     //rightItem 注册
     [self setRightItem:@"注册" imageName:nil selectedImageName:nil action:@selector(pushToRegistViewController)];
     
+    //输入监听
+    [self.phoneTextField addTarget:self action:@selector(textFieldDidChange:) forControlEvents:UIControlEventEditingChanged];
+    [self.codeTextField addTarget:self action:@selector(textFieldDidChange:) forControlEvents:UIControlEventEditingChanged];
+    
+    //点击事件
+    [self.loginButton addTarget:self action:@selector(loginBee) forControlEvents:UIControlEventTouchUpInside];
+    [self.getCodeButton addTarget:self action:@selector(getCode) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
 #pragma mark -- 点击事件
@@ -56,6 +64,33 @@
 -(void)pushToRegistViewController{
     
 }
+
+//登录
+-(void)loginBee{
+    
+}
+//获取验证码
+-(void)getCode{
+    
+}
+
+//textField输入事件
+-(void)textFieldDidChange:(UITextField * ) textField {
+    
+    if (self.phoneTextField.text.length != 0 && self.codeTextField.text.length != 0) {
+        self.loginButton.backgroundColor = ButtonYellowColor;
+        [self.loginButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        self.loginButton.enabled = YES;
+    }else{
+        
+        self.loginButton.backgroundColor = ButtonGrayColor;
+        [self.loginButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        self.loginButton.enabled = NO;
+        
+    }
+    
+}
+
 
 
 @end

@@ -30,5 +30,6 @@
  */
 #import "UIImage+Extension.h"
 #import "UIButton+Extension.h"
+#import "UIImageView+Extension.h"
 
 #endif /* Bee_Prefix_pch */
