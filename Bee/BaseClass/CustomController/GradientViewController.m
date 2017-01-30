@@ -33,11 +33,9 @@
 
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    [self setCustomMode];
 }
 -(void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
-    [self setNormalMode];
 }
 
 #pragma mark -- set navigation color mode
@@ -50,12 +48,11 @@
 
 //恢复原本头部
 -(void)setNormalMode{
-    
     self.navigationController.navigationBar.layer.masksToBounds = NO;
     [self.navigationController.navigationBar setBackgroundImage:nil forBarMetrics:UIBarMetricsCompact];
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
-    
 }
+
 //设置navigationBar 的颜色
 -(void)setNavigationBarColorWithColor : (UIColor *) color{
         [self.navigationController.navigationBar setBackgroundImage:[UIImage createImageWithColor:color] forBarMetrics:UIBarMetricsDefault];

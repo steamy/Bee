@@ -1,0 +1,1 @@
+../../../JCBannerView/Pod/Classes/JCBannerCell.h

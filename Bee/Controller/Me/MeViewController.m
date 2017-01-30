@@ -34,14 +34,18 @@
 #pragma mark -- createView
 
 -(void)createView {
-    //设置navigation
-    [self setRightItem:nil imageName:@"v2_my_settings_icon" selectedImageName:nil action:@selector(pushToSettingViewController)];
-    
-    //加载主界面
-    self.meScrollView = [[MeScrollView alloc] init];
-    [self.view addSubview: self.meScrollView];
-    self.meScrollView.contentSize = CGSizeMake(kScreenWidth ,  kScreenHeight );
-    [self.meScrollView addTarget:self action:@selector(clickListenerCerten:)];
+    if ( ![[NSUserDefaults standardUserDefaults] boolForKey:UserDefault_IsLogined]) {
+        //未登录
+        [self shwoErrorViewWithErrorType:NotLoginIn setter:@selector(presentToLoginVC)];
+    }else {
+        //设置navigation
+        [self setRightItem:nil imageName:@"v2_my_settings_icon" selectedImageName:nil action:@selector(pushToSettingViewController)];
+        //加载主界面
+        self.meScrollView = [[MeScrollView alloc] init];
+        [self.view addSubview: self.meScrollView];
+        self.meScrollView.contentSize = CGSizeMake(kScreenWidth ,  kScreenHeight );
+        [self.meScrollView addTarget:self action:@selector(clickListenerCerten:)];
+    }
 }
 
 #pragma  mark -- 点击事件
@@ -158,4 +162,10 @@
     NSLog(@"pushToSettingViewController");
 }
 
+//未登录下点击登录按钮
+-(void)presentToLoginVC{
+    LoginViewController * loginViewController = [[LoginViewController  alloc] init];
+    BaseNavigationController *  baseNavigationController = [[BaseNavigationController alloc] initWithRootViewController:loginViewController];
+    [self presentViewController: baseNavigationController animated: YES completion:nil];
+}
 @end

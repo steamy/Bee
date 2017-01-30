@@ -9,7 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>JCBannerView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Bee.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>613F0E01A4AD38E144E35D44E0AAF6DB</key>
+		<key>2371C7C2E08A55DF0122B32BB4EB997F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>59C03A91D90513BE38B4A0F8D0E1017E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EAE51C0AB35929426158DC63CB18361</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD60564B2EA77F2A3B2418C75B039E7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

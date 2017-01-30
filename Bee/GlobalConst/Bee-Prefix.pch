@@ -31,5 +31,13 @@
 #import "UIImage+Extension.h"
 #import "UIButton+Extension.h"
 #import "UIImageView+Extension.h"
+#import "UIView+Extension.h"
+
+/**
+ *      three party framework
+ */
+
+#import <JCBannerView/JCBannerView.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 
 #endif /* Bee_Prefix_pch */

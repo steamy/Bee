@@ -11,4 +11,13 @@
 @interface GradientViewController : BaseViewController
 
 
+//设置颜色可变的头部
+-(void)setCustomMode;
+
+//恢复原本头部
+-(void)setNormalMode;
+
+//设置navigationBar 的颜色
+-(void)setNavigationBarColorWithColor : (UIColor *) color;
+
 @end

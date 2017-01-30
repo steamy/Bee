@@ -11,6 +11,10 @@
 		A01F15C51E33423B001203A7 /* MeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15C41E33423B001203A7 /* MeScrollView.m */; };
 		A01F15CD1E348748001203A7 /* LabelItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15CC1E348748001203A7 /* LabelItemView.m */; };
 		A01F15D01E349E32001203A7 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15CF1E349E32001203A7 /* UIImageView+Extension.m */; };
+		A01F15D41E370A4E001203A7 /* HomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15D31E370A4E001203A7 /* HomeHeaderView.m */; };
+		A01F15D71E372F66001203A7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15D61E372F66001203A7 /* UIView+Extension.m */; };
+		A01F15DA1E3762E0001203A7 /* HomeSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15D91E3762E0001203A7 /* HomeSectionHeaderView.m */; };
+		A082192C1E3F65CE00F0DDA7 /* HomeGoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A082192B1E3F65CE00F0DDA7 /* HomeGoodCell.m */; };
 		A0A105661E252CBE00408718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A105651E252CBE00408718 /* main.m */; };
 		A0A105691E252CBE00408718 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A105681E252CBE00408718 /* AppDelegate.m */; };
 		A0A105711E252CBE00408718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A105701E252CBE00408718 /* Assets.xcassets */; };
@@ -43,6 +47,14 @@
 		A01F15CC1E348748001203A7 /* LabelItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelItemView.m; sourceTree = "<group>"; };
 		A01F15CE1E349E32001203A7 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
 		A01F15CF1E349E32001203A7 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+		A01F15D21E370A4E001203A7 /* HomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeHeaderView.h; sourceTree = "<group>"; };
+		A01F15D31E370A4E001203A7 /* HomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeHeaderView.m; sourceTree = "<group>"; };
+		A01F15D51E372F66001203A7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		A01F15D61E372F66001203A7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		A01F15D81E3762E0001203A7 /* HomeSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSectionHeaderView.h; sourceTree = "<group>"; };
+		A01F15D91E3762E0001203A7 /* HomeSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSectionHeaderView.m; sourceTree = "<group>"; };
+		A082192A1E3F65CE00F0DDA7 /* HomeGoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeGoodCell.h; sourceTree = "<group>"; };
+		A082192B1E3F65CE00F0DDA7 /* HomeGoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeGoodCell.m; sourceTree = "<group>"; };
 		A0A105611E252CBE00408718 /* Bee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A105651E252CBE00408718 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A0A105671E252CBE00408718 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +131,19 @@
 				A01F15CC1E348748001203A7 /* LabelItemView.m */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		A01F15D11E370A0A001203A7 /* HomePageView */ = {
+			isa = PBXGroup;
+			children = (
+				A01F15D21E370A4E001203A7 /* HomeHeaderView.h */,
+				A01F15D31E370A4E001203A7 /* HomeHeaderView.m */,
+				A01F15D81E3762E0001203A7 /* HomeSectionHeaderView.h */,
+				A01F15D91E3762E0001203A7 /* HomeSectionHeaderView.m */,
+				A082192A1E3F65CE00F0DDA7 /* HomeGoodCell.h */,
+				A082192B1E3F65CE00F0DDA7 /* HomeGoodCell.m */,
+			);
+			path = HomePageView;
 			sourceTree = "<group>";
 		};
 		A0A105581E252CBE00408718 = {
@@ -208,6 +233,7 @@
 		A0A1072D1E28EA8A00408718 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A01F15D11E370A0A001203A7 /* HomePageView */,
 				A01F15C21E334217001203A7 /* MeView */,
 				A0D568F61E2A060700F4D01B /* ErrorOrEmptyPromptView */,
 			);
@@ -291,6 +317,8 @@
 				A0D568F41E29EB9500F4D01B /* UIImage+Extension.m */,
 				A0D5690B1E2A560E00F4D01B /* UIButton+Extension.h */,
 				A0D5690C1E2A560E00F4D01B /* UIButton+Extension.m */,
+				A01F15D51E372F66001203A7 /* UIView+Extension.h */,
+				A01F15D61E372F66001203A7 /* UIView+Extension.m */,
 			);
 			name = Extension;
 			path = Extention;
@@ -466,15 +494,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01F15D41E370A4E001203A7 /* HomeHeaderView.m in Sources */,
 				A0D568D71E2906D700F4D01B /* BaseNavigationController.m in Sources */,
 				A0D568E31E2932DC00F4D01B /* GuideViewController.m in Sources */,
+				A01F15D71E372F66001203A7 /* UIView+Extension.m in Sources */,
 				A0D569091E2A52AC00F4D01B /* LoginViewController.m in Sources */,
 				A0D569111E2A5D1700F4D01B /* ShoppingCartViewController.m in Sources */,
+				A01F15DA1E3762E0001203A7 /* HomeSectionHeaderView.m in Sources */,
 				A0D568DF1E2918A400F4D01B /* MainViewController.m in Sources */,
 				A0D568FC1E2A075B00F4D01B /* CommonPromptView.m in Sources */,
 				A0D568DB1E2917C600F4D01B /* AnimationTabBarController.m in Sources */,
 				A0D568EE1E29E31B00F4D01B /* GradientViewController.m in Sources */,
 				A01F15D01E349E32001203A7 /* UIImageView+Extension.m in Sources */,
+				A082192C1E3F65CE00F0DDA7 /* HomeGoodCell.m in Sources */,
 				A0D568E61E29332700F4D01B /* GuideCell.m in Sources */,
 				A0D568EA1E29E0C400F4D01B /* HomeViewController.m in Sources */,
 				A0D5690D1E2A560E00F4D01B /* UIButton+Extension.m in Sources */,
