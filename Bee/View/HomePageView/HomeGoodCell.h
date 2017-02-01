@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define HomeGoodCellWidth  kScreenWidth / 3
+#define HomeGoodCellHeight  366 * KScreenUnit
+
+
 @interface HomeGoodCell : UICollectionViewCell
 
 @end

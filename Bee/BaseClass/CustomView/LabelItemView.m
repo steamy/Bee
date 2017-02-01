@@ -10,9 +10,9 @@
 
 @interface LabelItemView ()
 
-@property (nonatomic , strong) UILabel * infoLabel;
-@property (nonatomic,strong) UILabel * constLabel;
-@property (nonatomic , strong) UIButton * maskButton;
+@property (nonatomic, strong) UILabel * infoLabel;
+@property (nonatomic, strong) UILabel * constLabel;
+@property (nonatomic, strong) UIButton * maskButton;
 
 @end
 
