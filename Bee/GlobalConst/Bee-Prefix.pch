@@ -11,7 +11,10 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-
+/**
+ *      define
+ */
+#import "ApiUrlHeader.h"
 #import "UIConstHeader.h"
 #import "GlobalConstHeader.h"
 
@@ -32,6 +35,12 @@
 #import "UIButton+Extension.h"
 #import "UIImageView+Extension.h"
 #import "UIView+Extension.h"
+
+/**
+ *      baseClass-Manager
+ */
+#import "BeeNetworkManager.h"
+
 
 /**
  *      three party framework

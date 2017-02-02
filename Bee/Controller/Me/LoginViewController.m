@@ -52,6 +52,20 @@
     [self.loginButton addTarget:self action:@selector(loginBee) forControlEvents:UIControlEventTouchUpInside];
     [self.getCodeButton addTarget:self action:@selector(getCode) forControlEvents:UIControlEventTouchUpInside];
     
+//#pragma waring  -- delete this line
+//    [[BeeNetworkManager sharInstance] getJSONWithUrl:Bee_URL_Login parameters:nil success:^(id responseObject) {
+//        NSLog(@"success---%@",(NSString *)responseObject);
+//    } fail:^(NSError *error) {
+//        NSLog(@"error:%@",error);
+//    }];
+//    NSDictionary * para = [NSDictionary dictionaryWithObject:@"post" forKey:@"content"];
+//    [[BeeNetworkManager sharInstance] postJSONWithUrl:Bee_URL_PostTest parameters:para success:^(id responseObject) {
+//        NSString *resultStr = [[NSString alloc]initWithData:responseObject encoding:NSUTF8StringEncoding];
+//        NSLog(@"success--post--%@",resultStr);
+//    } fail:^(NSError *error) {
+//        NSLog(@"%@",error);
+//    }];
+    
 }
 
 #pragma mark -- 点击事件

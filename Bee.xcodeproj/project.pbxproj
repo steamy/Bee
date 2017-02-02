@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00B23EA1E43115100249BE6 /* BeeNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A00B23E91E43115100249BE6 /* BeeNetworkManager.m */; };
 		A01F15C01E333A93001203A7 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15BE1E333A93001203A7 /* MeViewController.m */; };
 		A01F15C51E33423B001203A7 /* MeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15C41E33423B001203A7 /* MeScrollView.m */; };
 		A01F15CD1E348748001203A7 /* LabelItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A01F15CC1E348748001203A7 /* LabelItemView.m */; };
@@ -39,6 +40,9 @@
 /* Begin PBXFileReference section */
 		2472B4BA3A1A35AD4B48DD8E /* libPods-Bee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86319CA2444EFF1F7BBD0F8A /* Pods-Bee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bee/Pods-Bee.debug.xcconfig"; sourceTree = "<group>"; };
+		A00B23E71E430BA400249BE6 /* ApiUrlHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiUrlHeader.h; sourceTree = "<group>"; };
+		A00B23E81E43115100249BE6 /* BeeNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeNetworkManager.h; sourceTree = "<group>"; };
+		A00B23E91E43115100249BE6 /* BeeNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeNetworkManager.m; sourceTree = "<group>"; };
 		A01F15BD1E333A93001203A7 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		A01F15BE1E333A93001203A7 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		A01F15C31E33423B001203A7 /* MeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeScrollView.h; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 				A01F15CA1E348701001203A7 /* CustomView */,
 				A0D568EB1E29E2AB00F4D01B /* CustomController */,
 				A0D568D11E28FE0E00F4D01B /* BaseControllers */,
+				A00B23E81E43115100249BE6 /* BeeNetworkManager.h */,
+				A00B23E91E43115100249BE6 /* BeeNetworkManager.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 				A0A1072F1E28EBCC00408718 /* Bee-Prefix.pch */,
 				A0A107301E28EC4E00408718 /* UIConstHeader.h */,
 				A0D568D01E28FA7900F4D01B /* GlobalConstHeader.h */,
+				A00B23E71E430BA400249BE6 /* ApiUrlHeader.h */,
 			);
 			path = GlobalConst;
 			sourceTree = "<group>";
@@ -501,6 +508,7 @@
 				A0D569091E2A52AC00F4D01B /* LoginViewController.m in Sources */,
 				A0D569111E2A5D1700F4D01B /* ShoppingCartViewController.m in Sources */,
 				A01F15DA1E3762E0001203A7 /* HomeSectionHeaderView.m in Sources */,
+				A00B23EA1E43115100249BE6 /* BeeNetworkManager.m in Sources */,
 				A0D568DF1E2918A400F4D01B /* MainViewController.m in Sources */,
 				A0D568FC1E2A075B00F4D01B /* CommonPromptView.m in Sources */,
 				A0D568DB1E2917C600F4D01B /* AnimationTabBarController.m in Sources */,

@@ -49,6 +49,8 @@ static NSString * const reuseIdentifierHeader = @"HomeHeaderView";
     
     [collectionView registerClass:[HomeHeaderView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:reuseIdentifierHeader];
     
+
+    
 }
 
 #pragma mark -- UICollectionDelegate /  UICollectionDataSource
